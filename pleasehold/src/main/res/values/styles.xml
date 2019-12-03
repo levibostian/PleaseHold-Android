@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PleaseHoldView">
+        <item name="pleaseholdview_titleTextView">@style/PleaseHoldView.TitleTextView</item>
+        <item name="pleaseholdview_messageTextView">@style/PleaseHoldView.MessageTextView</item>
+        <item name="pleaseholdview_progressBar">@style/PleaseHoldView.ProgressBar</item>
+    </style>
+
+    <style name="PleaseHoldView.TitleTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:padding">@dimen/com_levibostian_pleaseholdview_view_padding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PleaseHoldView.MessageTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:padding">@dimen/com_levibostian_pleaseholdview_view_padding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PleaseHoldView.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:padding">@dimen/com_levibostian_pleaseholdview_view_padding</item>
+    </style>
+</resources>

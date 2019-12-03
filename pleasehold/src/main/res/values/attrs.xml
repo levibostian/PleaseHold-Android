@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PleaseHoldView">
+        <attr name="pleasehold_title_text" format="string"/>
+        <attr name="pleasehold_message_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="PleaseHoldViewStyle">
+        <attr name="pleaseholdview_titleTextView" format="reference"/>
+        <attr name="pleaseholdview_messageTextView" format="reference"/>
+        <attr name="pleaseholdview_progressBar" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="PleaseHoldViewTheme">
+        <attr name="pleaseholdview_style" format="reference"/>
+    </declare-styleable>
+</resources>

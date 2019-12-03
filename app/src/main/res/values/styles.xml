@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="pleaseholdview_style">@style/PleaseHoldView.Custom</item>
+    </style>
+
+    <style name="PleaseHoldView.Custom">
+        <item name="pleaseholdview_progressBar">@style/PleaseHoldView.ProgressBar.Custom</item>
+    </style>
+
+    <style name="PleaseHoldView.ProgressBar.Custom" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_height">30dp</item>
+        <item name="android:padding">@dimen/com_levibostian_pleaseholdview_view_padding</item>
+    </style>
+
+</resources>
